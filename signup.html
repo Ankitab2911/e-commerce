@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up | TRENDIFY</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="index.html">TRENDIFY</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="section__container">
+        <h2>LOGIN/SIGN IN</h2>
+        <form action="/submit-signup" method="post" class="signup-form">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div>
+            <button class="btn" type="submit">SIGN IN</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright © 2024 TRENDIFY. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
